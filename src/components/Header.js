@@ -42,13 +42,14 @@ text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.283);
 }
 @media (max-width:920px) {
     display:none;
-}
-@media (max-width:768px) {
-    font-size:2rem;
+  }
+  @media (max-width:768px) {
+    font-size:3rem;
     display:block;
-}
-@media (max-width:390px){
-    font-size:1rem;
+  }
+  @media (max-width:470px){
+  display:none;
+    
 }
 `;
 
