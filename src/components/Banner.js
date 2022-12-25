@@ -6,8 +6,8 @@ const Banner = () => {
     return (
         <Wrapper id="banner" className="section-m1">
             <h4>Best Discounts</h4>
-            <h2 className="b-text">Upto <span className="dis"> 60% off </span> - All <span>Home Appliances</span> and <span>
-                Furniture </span></h2>
+            <h2 className="b-text">Upto <span className="dis"> 60% off </span> - All <span>Laptops</span> and <span>
+                Mobiles </span></h2>
             <Button>Explore Offers</Button>
         </Wrapper>
     )

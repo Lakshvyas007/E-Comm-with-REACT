@@ -1,11 +1,12 @@
 import React from "react";
+import FeatureProduct from "./components/FeatureProduct";
 import HeroSection from "./components/HeroSection";
 import Services2 from "./components/Services2";
 import {useProductContext } from "./context/productcontext";
 
 const About = () => {
   const data = {
-    name: "Furniture and Appliances",
+    name: "Electronic Gadgets and Devices",
     head: "we provide",
     src: "images/bg2.jpg",
 
@@ -17,6 +18,7 @@ const About = () => {
     <>
       {/* {myName} */}
       <HeroSection myData={data} />
+      <FeatureProduct />
       <Services2 />;
     </>
   )
