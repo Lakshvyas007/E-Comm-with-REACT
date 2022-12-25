@@ -1,14 +1,23 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import Banner from "./components/Banner";
+import FeatureProduct from "./components/FeatureProduct";
+import HeroSection from "./components/HeroSection";
+import Services from "./components/Services";
 
 const Home = () => {
-  return (
-    <Wrapper >Home</Wrapper>
-  )
+  const data = {
+    name: "Dharmendra Enterprises",
+    head: "Welcome to",
+    src: "images/hero.jpg"
+  };
+
+  return (<>
+    <HeroSection myData={data} />
+    <Services />
+    <FeatureProduct />
+    <Banner />
+  </>
+  );
 };
 
-const Wrapper = styled.section`
-height:100vh;
-`;
-
-export default Home
+export default Home;
